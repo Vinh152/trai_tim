@@ -1,3 +1,7 @@
+// Window.onClick=()=>{
+//     document.getElementById('ID').play();
+// }
+
 var canvas = document.getElementById("canvas");
 
 canvas.width = window.innerWidth;

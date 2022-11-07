@@ -9,8 +9,17 @@
 </head>
 <body>
     <canvas id="canvas" width="1400" height="600"></canvas>
-    <audio autoplay controls src="./Anh Sẽ Đón Em - Nguyên ft. Trang「Cukak Remix 」- Audio Lyrics.mp3"></audio>
+    <!-- <audio autoplay="autoplay" src="./Anh Sẽ Đón Em - Nguyên ft. Trang「Cukak Remix 」- Audio Lyrics.mp3"></audio> -->
+    <audio id="ID" loop="loop" controls="controls" src="./Anh Sẽ Đón Em - Nguyên ft. Trang「Cukak Remix 」- Audio Lyrics.mp3"></audio>
     <script src="./index.js"></script>
+    <script>
+        document.addEventListener('click', musicPlay);
+        function musicPlay() {
+        document.getElementById('ID').play();
+        // document.removeEventListener('click', musicPlay);
+}
+    </script>
+
 </body>
 </html>
 
